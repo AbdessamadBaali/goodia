@@ -1,0 +1,77 @@
+
+   h2{ 
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+  }
+  #divlb {
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+    background-color: #297e2170;
+  }
+  #divlb form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  
+  }
+  label {
+    font-size: 20px;
+    font: 700;
+    letter-spacing: 1.5px;
+    margin: 10px;
+  }
+  input[type=text], select {
+    font-size: 18px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit]
+    {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      width: 150px;
+      padding: 15px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      cursor: pointer;
+      transition: ease-in-out .3s;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .button:hover{
+      background-color: #fa5d24;
+      color: black;
+    }
+    #datashow{
+      display: none;
+    }
+    input[type=number], select {
+      font-size: 18px;
+      width: 100%;
+      padding: 12px 20px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    textarea{
+      font-size: 18px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }

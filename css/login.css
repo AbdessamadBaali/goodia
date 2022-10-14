@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica ;
+    
+    background-attachment: fixed;
+    background-size: cover;
+}
+.form{
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.form:hover{
+    opacity: 0.9;
+}
+h1{
+    margin: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.form input{
+width: 80% ;
+margin-bottom:25px ;
+margin: 20px auto;
+display: block;
+}
+.form input[type="email"] , .form input[type="password"]
+{
+border: none;
+border-bottom: 1px solid white ;
+background: transparent;
+outline: none;
+height: 40px;
+color: white;
+font-size: 17px;
+
+}
+.form input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: white;
+    font-size: 20px;
+    font-family:sans-serif;
+    border-radius: 25px;
+    padding: 1px 20px;
+    margin: 10px auto;
+
+}
+.form input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: rgb(235, 227, 114);
+    
+}
+.form a{
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 20px;
+    color: white;
+
+}
+.form a:hover
+{
+    cursor: pointer;
+    background: rgb(201, 198, 198);
+    opacity: 1;
+
+    
+}
+img{
+    width: 350px;
+    height: 250px;
+}
